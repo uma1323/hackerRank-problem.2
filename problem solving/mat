@@ -1,1 +1,31 @@
-
+#Door mad
+def square(num):
+    return num*num
+n,m=input().split()
+n=int(n)
+m=int(m)
+for i in range(1,n//2+1):
+     x=".|."*(2*i-1)
+     print(x.center(m,'-'))
+print("WELCOME".center(m,'-'))
+for i in range(n//2,0,-1):
+      x=".|."*(2*i-1)
+      print(x.center(m,'-'))
+  #
+  #1 2*1-1=1
+  #3 2*2-1=3
+  #5 2*3-=5       
+ouput
+Your Output (stdout)
+---------.|.---------
+------.|..|..|.------
+---.|..|..|..|..|.---
+-------WELCOYour Output (stdout)
+ 1  1  1  1
+ 2  2  2 10
+Expected Output
+ 1  1  1  1
+ 2  2  2 10ME-------
+---.|..|..|..|..|.---
+------.|..|..|.------
+---------.|.---------
